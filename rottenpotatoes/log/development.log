@@ -493,3 +493,25 @@ Started GET "/assets/application.self.css?body=1" for ::1 at 2015-07-23 13:57:16
 
 
 Started GET "/assets/application.self.js?body=1" for ::1 at 2015-07-23 13:57:16 -0700
+
+
+Started GET "/assets/rails.png" for 27.67.20.64 at 2016-05-17 06:32:36 +0000
+
+
+Started GET "/movies" for 27.67.20.64 at 2016-05-17 06:32:46 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (108.5ms)
+Completed 200 OK in 352ms (Views: 250.3ms | ActiveRecord: 65.8ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 27.67.20.64 at 2016-05-17 06:32:47 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 27.67.20.64 at 2016-05-17 06:32:47 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 27.67.20.64 at 2016-05-17 06:32:47 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 27.67.20.64 at 2016-05-17 06:32:47 +0000
